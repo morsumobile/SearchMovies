@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  MoviesSearch
-//
-//  Created by Morsu  sharat on 5/17/21.
-//
 
 import UIKit
 
@@ -13,7 +7,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         UINavigationBar.appearance().barTintColor = .blue
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
